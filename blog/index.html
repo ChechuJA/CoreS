@@ -13,6 +13,10 @@
       
       
       
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="tags/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -65,7 +69,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -86,7 +90,9 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Core Sonseca" class="md-header__button md-logo" aria-label="Core Sonseca" data-md-component="logo">
       
@@ -121,7 +127,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -186,14 +192,8 @@
     
   </nav>
   
-</header>
     
-    <div class="md-container" data-md-component="container">
       
-      
-        
-          
-            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -218,11 +218,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="2024/11/22/taller-de-movilidad-y-estiramientos/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   Blog
@@ -304,7 +306,13 @@
     </ul>
   </div>
 </nav>
-          
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
         
       
       <main class="md-main" data-md-component="main">
@@ -360,27 +368,30 @@
       
   
   
+    
   
   
+  
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -391,7 +402,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Blog
@@ -402,14 +413,49 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="2024/11/22/taller-de-movilidad-y-estiramientos/" class="md-nav__link">
+    
+      
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Taller de Movilidad y Estiramientos
+    Blog
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Posts by Tags
   </span>
   
 
@@ -425,12 +471,135 @@
   
   
   
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
     <li class="md-nav__item">
-      <a href="2024/11/29/taller-de-mindfulness/" class="md-nav__link">
+      <a href="2024/11/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Taller de Mindfulness
+    2024/11
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Categories
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/bienestar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bienestar
   </span>
   
 
@@ -445,17 +614,119 @@
   
   
   
+    
+  
   
     <li class="md-nav__item">
-      <a href="2024/11/18/taller-de-gesti%C3%B3n-de-emociones/" class="md-nav__link">
+      <a href="category/emociones/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Taller de Gestión de Emociones
+    Emociones
   </span>
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/estiramientos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estiramientos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/mindfulness/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mindfulness
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/movilidad/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Movilidad
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="category/taller/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taller
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -592,6 +863,7 @@
   </header>
   <div class="md-post__content md-typeset">
     <h2 id="taller-de-mindfulness"><a class="toclink" href="2024/11/29/taller-de-mindfulness/">Taller de Mindfulness</a></h2>
+<h3 id="taller-de-mindfulness_1"><a class="toclink" href="2024/11/29/taller-de-mindfulness/#taller-de-mindfulness_1">Taller de Mindfulness</a></h3>
 <p>En @CoreSonseca, te invitamos a participar en nuestro próximo taller de mindfulness.</p>
 <p><strong>Fecha:</strong> Viernes, 29 de noviembre de 2024<br />
 <strong>Hora:</strong> 18:30h</p>
@@ -643,6 +915,7 @@
   </header>
   <div class="md-post__content md-typeset">
     <h2 id="taller-de-movilidad-y-estiramientos"><a class="toclink" href="2024/11/22/taller-de-movilidad-y-estiramientos/">Taller de Movilidad y Estiramientos</a></h2>
+<h3 id="taller-de-movilidad-y-estiramientos_1"><a class="toclink" href="2024/11/22/taller-de-movilidad-y-estiramientos/#taller-de-movilidad-y-estiramientos_1">Taller de Movilidad y Estiramientos</a></h3>
 <p><img alt="Taller de Movilidad y Estiramientos" src="../images/tallerEstiramientos.jpg" /></p>
 <p>En @CoreSonseca, estamos emocionados de anunciar nuestro próximo taller de movilidad y estiramientos.</p>
 <p><strong>Fecha:</strong> Viernes, 22 de noviembre de 2024<br />
@@ -694,6 +967,7 @@
   </header>
   <div class="md-post__content md-typeset">
     <h2 id="taller-de-gestion-de-emociones"><a class="toclink" href="2024/11/18/taller-de-gesti%C3%B3n-de-emociones/">Taller de Gestión de Emociones</a></h2>
+<h3 id="taller-de-gestion-de-emociones_1"><a class="toclink" href="2024/11/18/taller-de-gesti%C3%B3n-de-emociones/#taller-de-gestion-de-emociones_1">Taller de Gestión de Emociones</a></h3>
 <p><img alt="Taller de Gestión de Emociones" src="../images/tallerEmociones.jpg" /></p>
 <p>Vuelve el curso de las emociones y esta vez en Sonseca en @coresonseca.</p>
 <p>Desde la Medicina Tradicional China, las emociones no se consideran ni buenas ni malas, desde esta filosofía hacemos una distinción entre Pasiones y Virtudes.</p>
@@ -730,6 +1004,12 @@ Organiza y comparte @xianzai_enya</p>
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
         
       </main>
       
@@ -780,8 +1060,10 @@ Organiza y comparte @xianzai_enya</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.expand", "navigation.sections", "toc.integrate", "toc.nested", "toc.smoothscroll", "footer"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "navigation.sections", "navigation.top", "navigation.tracking", "toc.integrate", "toc.nested", "toc.smoothscroll", "footer", "content.code.copy", "content.code.select", "content.code.annotate", "content.tooltips"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>

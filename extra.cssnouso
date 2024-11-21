@@ -1,0 +1,47 @@
+/* Default light mode styles */
+:root {
+    --md-primary-fg-color: #FFB6C1; /* Light pink */
+    --md-primary-bg-color: #FFB6C1; /* Light pink */
+    --md-default-fg-color: #000000; /* Black for default text */
+}
+
+body {
+    color: #000000; /* Black text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000; /* Black headings */
+}
+
+a {
+    color: #FFB6C1; /* Light pink links */
+}
+
+a:hover {
+    color: #FFB6C1; /* Light pink links on hover */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --md-primary-fg-color: #FFB6C1; /* Light pink */
+        --md-primary-bg-color: #FFB6C1; /* Light pink */
+        --md-default-fg-color: #FFFFFF; /* White for default text */
+    }
+
+    body {
+        color: #FFFFFF; /* White text */
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #FFFFFF; /* White headings */
+    }
+
+    a {
+        color: #FFB6C1; /* Light pink links */
+    }
+
+    a:hover {
+        color: #FFB6C1; /* Light pink links on hover */
+    }
+}
