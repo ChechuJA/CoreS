@@ -1,28 +1,87 @@
-site_name: My Site 
-site_description: A blog about Azure, DevOps and other stuff
-site_author: Rafael Fernández
+site_name: Core Sonseca
+site_description: Fitness, tonificación, musculación, entrenamiento personal, talleres de mindfulness y más
+site_author: Chechu
 
 theme: 
   name: material
+  palette:
+  - scheme: default
+    primary: pink
+    accent: blue
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - scheme: slate
+    primary: black
+    accent: blue
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.expand
     - navigation.sections
+    - navigation.top
+    - navigation.tracking
     - toc.integrate
     - toc.nested
     - toc.smoothscroll
     - footer
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tooltips
+
+extra_css:
+  - extra.css
+copyright: Copyright &copy; Core Sonseca
 
 plugins:
   - search  
-  - blog
+  - blog:
+      archive: true
+      archive_toc: true
+      archive_name: Archive
+      archive_date_format: yyyy/MM
+      archive_url_date_format: yyyy/MM
+      archive_url_format: "{date}"
   - tags:
-      tags_file: tags.md      
+      tags_file: blog/tags.md
+  # - rss:
+  #     match_path: blog/posts/.*/.*
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
+  #- social
 
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
+nav:
+  - Bienvenid@s: index.md
+  - Blog:
+    - blog/index.md
+    - blog/tags.md
+     # - Taller de Estiramientos: blog/posts/TallerEstiramientos.md
+      #- Taller de Mindfulness: blog/posts/TallerMindfulness.md
+      #- Taller de Emociones: blog/posts/TallerEmociones.md
+  - Horarios: horarios.md
+  - Quiénes somos: quienessomos.md
+  - Instalaciones: instalaciones.md
+  - Contacto: contacto.md
+  - Precios: precios.md
+  
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/core.sonseca
+      name: Facebook
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/coresonseca/
+      name: Instagram
+
+  footer:
+    copyright: "© 2024 Core Sonseca. Todos los derechos reservados."
